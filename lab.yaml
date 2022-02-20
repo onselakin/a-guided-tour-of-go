@@ -9,7 +9,7 @@ scenarios:
     settings:
       vscodeEnabled: false
       terminalEnabled: false
-    sections:
+    steps:
       - type: markdown
         content: Start with creating and destroying pods. More info on [kubernetes-docs](https://kubernetes.io)
 
