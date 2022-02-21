@@ -2,7 +2,8 @@ id: a-guided-tour-of-go
 title: A Guided Tour of Go
 description: This lab will teach you the basics of development with the Go language
 scenarios:
-  - title: Minimal K8s Scenario
+  - id: minimal-k8s
+    title: Minimal K8s Scenario
     description: This Scenario will help you learn how to create and destroy pods
     container:
       image: nginx:1.14.2
