@@ -1,5 +1,5 @@
 id: a-guided-tour-of-go
-title: A Guided Tour of Go
+title: Sample Lab
 description: This lab will teach you the basics of development with the Go language
 scenarios:
   - id: minimal-k8s
