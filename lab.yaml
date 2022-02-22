@@ -14,9 +14,9 @@ scenarios:
       - type: markdown
         content: | 
           Start with creating and destroying pods. More info on [kubernetes-docs](https://kubernetes.io) <pre>This is also some code here!</pre> Here is some JavaScript code:
-~~~js
-console.log('It works!')
-~~~
+          ~~~js
+          console.log('It works!')
+          ~~~
 
       - type: task
         tool: xterm
