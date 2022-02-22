@@ -12,7 +12,7 @@ scenarios:
       terminalEnabled: false
     steps:
       - type: markdown
-        content: Start with creating and destroying pods. More info on [kubernetes-docs](https://kubernetes.io)
+        content: Start with creating and destroying pods. More info on [kubernetes-docs](https://kubernetes.io) <pre>This is also some code here!</pre>
 
       - type: task
         tool: xterm
