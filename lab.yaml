@@ -20,7 +20,9 @@ scenarios:
         content: | 
           Start with creating and destroying pods. More info on [kubernetes-docs](https://kubernetes.io)
           
+          
           Here is some JavaScript code:
+
 
           ~~~js[executable=true]
           console.log('It works!')
