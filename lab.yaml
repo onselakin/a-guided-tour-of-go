@@ -1,22 +1,28 @@
 id: a-guided-tour-of-go
 title: Sample Lab
 description: This lab will teach you the basics of development with the Go language
+difficulty: easy
+estimatedTime: 1h
+coverImage: https://media.istockphoto.com/vectors/server-room-modern-financial-network-technology-big-data-network-vector-id1140689777?k=20&m=1140689777&s=612x612&w=0&h=02hIFxdSR4RQUR6NWLsdEVKpwX68vIizgd3pKjOucxU=
 scenarios:
   - id: minimal-k8s
     title: Minimal K8s Scenario
     description: This Scenario will help you learn how to create and destroy pods
     container:
       image: nginx:1.14.2
-    settings:
-      vscodeEnabled: false
-      terminalEnabled: false
+    layout:
+      vscode:
+        enabled: false
+      terminal:
+        enabled: false
     steps:
       - type: markdown
         content: | 
           Start with creating and destroying pods. More info on [kubernetes-docs](https://kubernetes.io) <pre>This is also some code here!</pre> Here is some JavaScript code:
-          ~~~js{{executable}}
+          ~~~js
           console.log('It works!')
           ~~~
+          ::youtube-video[Video of a cat in a box]{#01ab2cd3efg}
 
       - type: task
         tool: xterm
