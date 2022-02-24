@@ -24,7 +24,7 @@ scenarios:
           Here is some JavaScript code:
 
 
-          ~~~js
+          ~~~js[executable]
           console.log('It works!')
           ~~~
           
