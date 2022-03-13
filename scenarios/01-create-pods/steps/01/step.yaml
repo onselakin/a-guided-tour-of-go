@@ -1,0 +1,12 @@
+title: Introduction to kubectl
+layout:
+  allowNewTerminals: false
+  defaultTerminals:
+    - id: some-id
+      allowClose: false
+      cwd: /root
+    - id: another-id
+      title: Another Title
+      allowClose: true
+      cwd: /var/log
+volumeTarget: /create-pods

@@ -1,59 +1,11 @@
-id: a-guided-tour-of-go
-title: Sample Lab
+version: 0.1
+id: kubernetes-basics
+tags: kubernetes, cloud-native
+title: Basic Kubernetes Ops
+author: Onsel Akin
 description: This lab will teach you the basics of development with the Go language
 difficulty: easy
 estimatedTime: 1h
+container:
+  image: ubuntu:latest
 coverImage: https://media.istockphoto.com/vectors/server-room-modern-financial-network-technology-big-data-network-vector-id1140689777?k=20&m=1140689777&s=612x612&w=0&h=02hIFxdSR4RQUR6NWLsdEVKpwX68vIizgd3pKjOucxU=
-scenarios:
-  - id: minimal-k8s
-    title: Minimal K8s Scenario
-    description: This Scenario will help you learn how to create and destroy pods
-    container:
-      image: nginx:1.14.2
-    layout:
-      vscode:
-        enabled: false
-      terminal:
-        enabled: false
-    steps:
-      - type: markdown
-        content: | 
-          Start with creating and destroying pods 😍 More info on [kubernetes-docs](https://kubernetes.io)
-          
-          
-          Here is some JavaScript code:
-
-
-          ~~~js
-          console.log('It works!')
-          ~~~
-          
-      - type: task
-        tool: xterm
-        title: Use terminal shell to create the required resources
-        hint: You need to use `kubectl` commands to make this happen. You can use an `nginx` image.
-        initialization:
-          message: Creating your environment
-          script:
-            type: bash
-            run: |
-              kubectl create namespace some-namespace
-        verification:
-          message: Please wait while I validate your work
-          script:
-            type: nodejs
-            run: |
-              const k8s = require('@kubernetes/client-node');
-
-              const kc = new k8s.KubeConfig();
-              kc.loadFromDefault();
-
-              const k8sApi = kc.makeApiClient(k8s.CoreV1Api);
-
-              k8sApi.readNamespace(namespace.metadata.name).then((response) => new Promise((resolve, reject) => resolve())
-        solution:
-          script:
-            type: sh
-            run: |
-              kubectl create deployment nginx --image=nginx
-
