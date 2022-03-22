@@ -2,7 +2,13 @@ version: 0.1
 id: kubernetes-basics
 tags: kubernetes, cloud-native
 title: Basic Kubernetes Ops
-author: Onsel Akin
+author:
+  name: Container Solutions
+  photo: https://www.fairtravel4u.org/wp-content/uploads/2018/06/sample-profile-pic.png
+  bio: Dr. Chuck Easttom is the author of 34 books, including several on computer security, forensics, and cryptography. He is also an inventor with 23 patents and the author of over 70 research papers. He holds a Doctor of Science in cyber security, a Ph.D. in Nanotechnology, a Ph.D. in computer science, and three master’s degrees (one in applied computer science, one in education, and one in systems engineering). He is a senior member of both the IEEE and the ACM. He is also a Distinguished Speaker of the ACM and a Distinguished Visitor of the IEEE. Dr. Easttom is currently an adjunct professor for Georgetown University and for University of Dallas.
+  social:
+    twitter: "@oakin"
+    linkedin: oakin
 description: This lab will teach you the basics of development with the Go language
 difficulty: easy
 estimatedTime: 1h

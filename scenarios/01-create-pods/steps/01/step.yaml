@@ -10,3 +10,5 @@ layout:
       allowClose: true
       cwd: /var/log
 volumeTarget: /create-pods
+scripts:
+  shell: bash

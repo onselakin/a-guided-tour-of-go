@@ -1,2 +1,12 @@
 id: using-kubectl
 title: Using kubectl to filter pods
+layout:
+  allowNewTerminals: false
+  defaultTerminals:
+    - id: new-id
+      title: New Terminal
+      allowClose: false
+      cwd: /var/log
+volumeTarget: /create-pods
+scripts:
+  shell: bash

@@ -16,3 +16,37 @@ Ansible is a configuration management solution that can be used in DevOps enviro
 - Using Variables and Facts
 - Using Control Structures
 
+---
+
+- What you’ll learn and how you can apply it
+- Understanding Ansible
+- Setting up an environment for Ansible management
+- Working with ad-hoc commands
+- Understanding Ansible modules
+- Automating configuration deployments using Ansible playbooks
+- Using Variables and Facts
+- Using Control Structures
+
+---
+
+
+- What you’ll learn and how you can apply it
+- Understanding Ansible
+- Setting up an environment for Ansible management
+- Working with ad-hoc commands
+- Understanding Ansible modules
+- Automating configuration deployments using Ansible playbooks
+- Using Variables and Facts
+- Using Control Structures
+
+---
+
+- What you’ll learn and how you can apply it
+- Understanding Ansible
+- Setting up an environment for Ansible management
+- Working with ad-hoc commands
+- Understanding Ansible modules
+- Automating configuration deployments using Ansible playbooks
+- Using Variables and Facts
+- Using Control Structures
+
