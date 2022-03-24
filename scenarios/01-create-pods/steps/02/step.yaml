@@ -1,5 +1,4 @@
-id: using-kubectl
-title: Using kubectl to filter pods
+title: 02 -Using kubectl to filter pods
 layout:
   allowNewTerminals: false
   defaultTerminals:

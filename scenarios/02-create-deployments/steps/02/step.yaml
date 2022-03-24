@@ -1,13 +1,10 @@
-title: 01 -Introduction to kubectl
+title: 02 - Using kubectl to filter pods
 layout:
   allowNewTerminals: false
   defaultTerminals:
-    - id: some-id
+    - id: new-id
+      title: New Terminal
       allowClose: false
-      cwd: /root
-    - id: another-id
-      title: Another Title
-      allowClose: true
       cwd: /var/log
 volumeTarget: /create-pods
 scripts:
