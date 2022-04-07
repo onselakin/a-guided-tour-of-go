@@ -1,14 +1,11 @@
-title: 01 -Introduction to kubectl
+title: Packages & Imports
+description: This step teached you how to use packages
 layout:
   allowNewTerminals: false
   defaultTerminals:
     - id: some-id
       allowClose: false
       cwd: /root
-    - id: another-id
-      title: Another Title
-      allowClose: true
-      cwd: /var/log
-volumeTarget: /create-pods
+volumeTarget: /step1
 scripts:
   shell: bash

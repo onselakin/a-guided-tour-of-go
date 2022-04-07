@@ -30,6 +30,7 @@ spec:
     ports:
     - containerPort: 80
 ```
+
 To create the Pod shown above, run the following command:
 
 ```bash

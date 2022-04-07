@@ -1,4 +1,0 @@
-title: Deployments
-description: This Scenario will help you learn deployments
-container:
-  image: nginx:1.14.2
