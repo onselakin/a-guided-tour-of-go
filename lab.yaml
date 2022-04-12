@@ -14,6 +14,6 @@ description: |
 difficulty: easy
 estimatedTime: 3 hours
 container:
-  image: ubuntu:latest
-requiresCluster: true
+  image: golang:latest
+requiresCluster: false
 coverImage: lab.png

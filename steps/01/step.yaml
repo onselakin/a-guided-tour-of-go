@@ -1,11 +1,12 @@
 title: Packages & Imports
-description: This step teached you how to use packages
+description: This step teaches you how to use packages
 layout:
   allowNewTerminals: false
   defaultTerminals:
-    - id: some-id
+    - id: examples
+      title: Terminal
       allowClose: false
-      cwd: /root
-volumeTarget: /step1
+      cwd: /
+volumeName: /step
 scripts:
   shell: bash

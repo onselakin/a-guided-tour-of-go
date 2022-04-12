@@ -1,0 +1,32 @@
+## Packages & Imports
+
+[Packages](https://go.dev/tour/basics/1)
+
+[Imports](https://go.dev/tour/basics/2)
+
+> Every Go program is made up of packages.
+
+Golang itself is made of packages. They’re called [Go Standard library](https://pkg.go.dev/std). Instead of downloading a massive “the answer to life the universe and everything” framework like .Net and Java did back in the day, you only download the packages you’ll be using inside your own program.
+
+The packages mentioned on the page `fmt` and `math/rand` are part of this standard library. You may be wondering why the `fmt` package is just `fmt` but there’s `math/` in front of `rand`. That’s how the Go standard library is organized. `fmt` package is a package concerning functions of formatted I/O. `rand` package is a package concerning pseudo-random number generators. `math` is a package of packages containing `big`, `bits`, `cmplx` and `rand`, all with their own purposes, but all of them are about mathematics.
+
+What if we import the whole `math` package instead of `math/rand` and use `math.rand.Intn(10))` instead of `rand.Intn(10))`
+
+```go
+~{
+  title: Packages Example
+  executable: true
+  executeScript: |
+    go run ./step/packages-example1.go
+}~
+package main
+
+import (
+	"fmt"
+	"math"
+)
+
+func main() {
+	fmt.Println("My favorite number is", math.rand.Intn(10))
+}
+```
