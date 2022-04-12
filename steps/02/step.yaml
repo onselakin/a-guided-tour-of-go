@@ -1,0 +1,12 @@
+title: Exported names
+description: This step teaches you about exported names
+layout:
+  allowNewTerminals: false
+  defaultTerminals:
+    - id: examples
+      title: Terminal
+      allowClose: false
+      cwd: /
+volumeName: /step
+scripts:
+  shell: bash

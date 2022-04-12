@@ -30,3 +30,17 @@ func main() {
 	fmt.Println("My favorite number is", math.rand.Intn(10))
 }
 ```
+
+When you run this version on A Tour of Go page, it’ll result in this error message:
+
+```text
+./prog.go:9:39: cannot refer to unexported name math.rand
+```
+
+Interestingly the same code on the [Go Playground](https://go.dev/play/p/NBXOTfRwxo_g) first deletes importing of math package in its automatic format step, then returns this error:
+
+```text
+./prog.go:8:39: undefined: math
+```
+
+We’ll discuss what unexported means in the next page, then both error messages will make more sense.
