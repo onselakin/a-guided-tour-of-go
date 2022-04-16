@@ -22,18 +22,8 @@ Go compiler would not let you have unused imports in your code. When you try to 
   executable: true
   executeScript: |
     go run ./step/example1.go
+  file: example1.go
 }~
-package main
-
-import (
-	"fmt"
-	"math"
-	"net/http"
-)
-
-func main() {
-	fmt.Println(math.Pi)
-}
 ```
 
 you’ll see this error message.
@@ -54,20 +44,7 @@ Another important thing that needs mentioning here is, “What does unexported m
   executable: true
   executeScript: |
     go run ./step/example2.go
+  file: example2.go
 }~
-package main
-
-import "fmt"
-
-const pi float64 = 3.14159265358979323846264338327950288419716939937510582097494459
-
-func main() {
-	fmt.Println("Pi is ", pi)
-	fmt.Println("Two pies are better than one ", multiply(pi))
-}
-
-func multiply(input float64) float64 {
-	return input * 2
-}
 ```
 

@@ -18,17 +18,8 @@ What if we import the whole `math` package instead of `math/rand` and use `math.
   executable: true
   executeScript: |
     go run ./step/packages-example1.go
+  file: packages-example1.go
 }~
-package main
-
-import (
-	"fmt"
-	"math"
-)
-
-func main() {
-	fmt.Println("My favorite number is", math.rand.Intn(10))
-}
 ```
 
 When you run this version on A Tour of Go page, it’ll result in this error message:
